@@ -55,132 +55,200 @@ function Home() {
           Criança!
         </strong>
       </p>
-      <h3>--- 7° ENCONTRO ---</h3>
-      <h2>ELE NOS ABRE AO NOVO</h2>
-      <h3>2. ACOLHIDA DO TEMA</h3>
-      <p>
-        <strong>D.</strong> O Natal é a chegada de algo novo e inesperado na
-        história da humanidade. Para acolher esse povo, é preciso abrir o
-        coração, deixar-se conduzir, abandonar medos e certezas rígidas.
-        <br />
-        <strong>L1.</strong> José tinha seus planos, seu projeto de vida estava
-        traçado como o dos demais jovens de Nazaré. Mas, de repente, tudo mudou.
-        Maria estava grávida, e eel não entendia o que acontecia. A incerteza
-        quase o paralisou, mas Deus o chamou a dar um passo de confiança, a se
-        abrir para um caminho que ele jamais teria imaginado.
-        <br />
-        <strong>L2.</strong> José poderia ter rejeitado Maria e buscado outra
-        jovem para se casar. Afinal, assumir aquela paternidade seria visto como
-        motivo de desonra diante dos outros homens. Mas, ao invés de fugir, ele
-        permaneceu. Ao invés de fechar-se no medo, abriu-se ao mistério. Ao
-        invés do repúdio, escolheu a acolhida.
-        <br />
-        <strong>T. Senhor, abre-nos para acolher o novo com confiança!</strong>
-        <br />
-        <strong>L3.</strong> O Evangelho nos ensina que Deus, muitas vezes, age
-        de formas que não esperamos. Quantas vezes, em nossas vidas, também
-        resistimos ao novo porque temos medo do que não controlamos? Assim como
-        José, somos chamados a abrir espaço para Deus agir, mesmo quando não
-        entendemos completamente seus caminhos.
-      </p>
-      <h3>3. ILUMINAÇÃO BÍBLICA</h3>
-      <p>
-        <strong>D.</strong> A Palavra de Deus nos convida a confiar e a seguir
-        adiante, mesmo quando tudo parece incerto.
-        <br />
-        <a href="https://www.bibliaonline.com.br/vc/mt/1/18-25" target="_blank">
-          Proclamação da Palavra - Mateus 1,18-25
-        </a>
-      </p>
-      <h3>4. PARTILHA</h3>
-      <ul>
-        <li>
-          O que nos chama atenção na atitude de José diante da novidade que Deus
-          lhe apresentou?
-        </li>
-        <li>
-          Como podemos aprender a confiar mais e a não resistir ao novo que Deus
-          nos propõe?
-        </li>
-      </ul>
-      <h3>5. FATO DA VIDA</h3>
-      <p>
-        <strong>L3.</strong> Clara sempre sonhou em ser mãe. Quando soube que
-        esperava um filho, sentiu que sua vida se enchia de luz. Imaginava os
-        primeiros passos, as primeiras palavras, o futuro desenhado com cores
-        suaves e alegres. Mas o dia do nascimento trouxe algo inesperado. O
-        médico entrou no quarto, sentou-se ao lado dela e falou com cuidado:
-        <br />
-        - Seu filho nasceu com uma deficiência.
-        <br />
-        Ao ouvir a notícia, Clara sentiu o chão desaparecer. Não soube o que
-        dizer, nem o que pensar. Apenas segurou o pequeno nos braços e chorou em
-        silêncio. Em seu coração, o amor se misturava a uma avalanche de
-        perguntas: "Será que vou dar conta? Como será o futuruo dele? Será que
-        ele vai sofrer?". O medo apertava seu peito, pois se sentia muito
-        impotente diante daquela nova realidade.
-        <br />
-        <strong>L1.</strong> Sua mãe, então, percebendo a angústia da filha,
-        disse:
-        <br />
-        - Clara, quando você nasceu, eu também tive medo. Toda mãe tem. O novo
-        assusta, porque exige que a gente se transforme. Mas você não precisa
-        ter todas as respostas agora. Basta amá-lo, dia após dia. O resto...
-        Deus ensina.
-        <br />
-        Clara, então, sentiu nascer em seu coração um sopro de paz. Sua mão
-        estava certa: não era preciso entender tudo de imediata. Precisava
-        apenas se abrir ao que Deus queria realizar nela por meio daquele
-        pequeno ser. Com ternura, então, sussurrou ao bebê:
-        <br />
-        - Seja bem-vindo, meu amor, Vamos aprender juntos.
-        <br />O tempo fez com que percebesse: não era ela quem ensinava o menino
-        a viver, mas era ele quem apresentava a ela uma forma mais bela de vida.
+      <header>
+        <h2>8º ENCONTRO</h2>
+        <h2>Ele é a Nossa Alegria</h2>
+      </header>
+
+      <section>
+        <h3>
+          1. Oração Inicial <small>(p. 4)</small>
+        </h3>
+      </section>
+
+      <section>
+        <h3>2. Acolhida do Tema</h3>
+
+        <p>
+          <strong>D.</strong> O Tempo do Natal, tão próximo de nós, recorda-nos
+          que a fé cristã não é tristeza, não é rigidez, não é corrente que nos
+          aprisiona. Jesus veio para nos encher de vida e nos fazer transbordar
+          de alegria.
+        </p>
+
+        <p>
+          <strong>L1.</strong> Maria, grávida do Salvador, foi ao encontro de
+          Isabel cheia de entusiasmo, porque quem carrega Deus no seu interior
+          não se fecha em si mesmo, mas está aberto ao encontro alegre com os
+          irmãos.
+        </p>
+
+        <p>
+          <strong>L2.</strong> A certeza do nascimento de Jesus nos tira do medo
+          e da culpa, ressignificando nossas vidas e nossas relações. Se Cristo
+          escolheu viver como um de nós, é porque a vida vale a pena. A alegria
+          do Evangelho é a certeza de que a existência é um presente a ser
+          celebrado, e não um fardo a ser carregado.
+        </p>
+
+        <p>
+          <strong>T.</strong>{" "}
+          <em>Senhor, dá-nos a alegria de viver no teu amor!</em>
+        </p>
+      </section>
+
+      <section>
+        <h3>3. Iluminação Bíblica</h3>
+
+        <p>
+          <strong>D.</strong> A Palavra de Deus nos convida a viver uma fé cheia
+          de alegria e gratidão.
+        </p>
+
+        <p>
+          <em>(Canto de acolhida da Palavra – à escolha nas p. 31-32)</em>
+        </p>
+
+        <p>
+          <strong>Proclamação da Palavra – Lucas 1,39-47</strong>
+        </p>
+
+        <p>
+          <em>
+            (Após a proclamação, faz-se um tempo de silêncio para que cada um
+            leia e releia o texto em sua própria Bíblia, pelo menos três vezes,
+            sem pressa.)
+          </em>
+        </p>
+      </section>
+
+      <section>
+        <h3>4. Partilha</h3>
         <ul>
-          <li>O que nos chama atenção nessa história?</li>
+          <li>O que nos chama atenção no encontro entre Maria e Isabel?</li>
           <li>
-            Que situações novas em nossa vida e em nossa comunidade nos convidam
-            a uma abertura de fé?
+            Como podemos tornar nossa experiência de fé mais leve e feliz?
           </li>
         </ul>
-      </p>
-      <h3>6. REZAR COM A PALAVRA</h3>
-      <p>
-        <strong>D.</strong> A novidade de Deus nunca nos fecha, mas nos amplia.
-        Peçamos esta graça:
-        <strong>T. Senhor, abre-nos para acolher o novo com confiança!</strong>
-        <ol>
+      </section>
+
+      <section>
+        <h3>5. Fato da Vida</h3>
+
+        <p>
+          <strong>L1.</strong> Dona Estela era catequista há muitos anos, e sua
+          fama de durona era conhecida em toda a paróquia. Por receio da
+          catequista, os pequenos tinham tudo na ponta da língua, mas o coração
+          estava distante dali. Como queriam não ter de ir para a catequese!
+        </p>
+
+        <p>
+          <strong>L2.</strong> O único da turma que se mantinha sempre sossegado
+          era Pedro. Vivia no mundo da lua e não sabia nada de cor. Certa tarde,
+          com tom firme, a catequista começou a dizer:
+        </p>
+
+        <blockquote>
+          <p>
+            — Deus nos deu as regras para vivermos bem. Precisamos segui-las com
+            atenção, porque desobedecer é pecado. E vocês sabem o que acontece
+            com quem faz o que é errado?
+          </p>
+        </blockquote>
+
+        <p>
+          Pedro, que olhava pela janela distraído como sempre, de repente se
+          virou para a senhora e disse:
+        </p>
+
+        <blockquote>
+          <p>— Tenta de novo!</p>
+        </blockquote>
+
+        <p>
+          <strong>L3.</strong> Dona Estela arqueou as sobrancelhas, indignada:
+        </p>
+
+        <blockquote>
+          <p>— Como assim? De onde você tirou isso, menino?</p>
+        </blockquote>
+
+        <p>Pedro respondeu com naturalidade:</p>
+
+        <blockquote>
+          <p>
+            — Outro dia eu briguei na escola, Dona Estela. Tenho um colega que
+            me irrita muito e, durante o futebol, ele me fez cair. Eu levantei
+            com raiva e briguei com ele. Ele chorou muito e eu levei uma
+            suspensão. Quando cheguei em casa, meu pai disse que estava
+            desapontado comigo e senti muita culpa. Então, quem chorou fui eu.
+          </p>
+        </blockquote>
+
+        <p>
+          <strong>D.</strong> Dona Estela já impaciente com a história do menino
+          disse:
+        </p>
+
+        <blockquote>
+          <p>— Mas o que isso tem a ver com o assunto?</p>
+        </blockquote>
+
+        <p>Pedro continuou, sereno:</p>
+
+        <blockquote>
+          <p>
+            — Tem a ver que, quando meu pai viu minha culpa, ele disse: “Filho,
+            não precisa ficar triste. Todo mundo erra. O mais importante, depois
+            que a gente erra, é tentar de novo. Não desistir de fazer o certo.
+            Amanhã, peça perdão ao seu colega e, se ele voltar a te irritar,
+            tente sorrir, ao invés de brigar. Amanhã, você tenta de novo...”
+          </p>
+        </blockquote>
+
+        <p>
+          <strong>L1.</strong> Dona Estela olhou ao redor. As crianças estavam
+          atentas a Pedro de um jeito que nunca estiveram a ela. Então, um pouco
+          desconcertada, perguntou:
+        </p>
+
+        <blockquote>
+          <p>
+            — E você acha que Deus fica feliz quando a gente tenta de novo,
+            Pedro?
+          </p>
+        </blockquote>
+
+        <p>O menino deu um sorriso largo e respondeu:</p>
+
+        <blockquote>
+          <p>
+            — A senhora sempre diz que Deus é Pai. Se meu pai ficou feliz, acho
+            que Deus ainda mais.
+          </p>
+        </blockquote>
+
+        <p>
+          <strong>L2.</strong> Dona Estela sentiu uma alegria nova, genuína, ao
+          ouvir a resposta do menino. Fez uma pausa e, quase sem perceber,
+          sorriu. Depois daquele dia, aos poucos, Estela começou a se soltar
+          mais, deixava as crianças mais à vontade para falar e até se permitia
+          rir das graças que algumas faziam. Às vezes, voltava às velhas ideias
+          rígidas, mas, quando percebia o receio surgir nos olhos das crianças,
+          lembrava-se de Pedro e do Pai, e decidia tentar de novo.
+        </p>
+      </section>
+
+      <section>
+        <ul>
+          <li>O que te chama atenção nesta história?</li>
           <li>
-            Para que não resistamos ao que Deus quer realizar em nós, nós te
-            pedimos.
+            Por que tantas vezes conhecemos pessoas com uma fé rígida e sem
+            alegria?
           </li>
-          <li>
-            Para que saibamos dar passos de fé, como José, nós te pedimos.
-          </li>
-          <li>
-            Para que não deixemos que o medo nos impeça de crescer, nós te
-            pedimos.
-          </li>
-          <li>
-            Para que possamos enxergar a novidade como benção, nós te pedimos.
-          </li>
-        </ol>
-        <em>(Outra intenções podem ser acrescentadas)</em>
-      </p>
-      <h3>7. COMPROMISSO DE IRMÃOS</h3>
-      <p>
-        <strong>D.</strong> José precisou abrir mão de suas certezas para
-        acolher o novo que Deus trazia. Muitas vezes, nós também nos fechamos
-        por medo de mudar, de recomeçar, de abrir o coração a algo novo. Nesta
-        semana,{" "}
-        <strong>
-          comprometamo-nos a dar um passo fora da nossa zona de conforto.
-        </strong>{" "}
-        Pode ser uma conversa difícil, um novo desafio, um recomeço. Encarar
-        mudanças com mais fé do que medo; ajudar alguém que está inseguro diante
-        de algo novo, encorajando-o. Que possamos, como José, aprender a confiar
-        no Deus que nos abre caminhos inesperados.
-      </p>
+          <li>Que antídotos podemos buscar para evitar posturas assim?</li>
+        </ul>
+      </section>
       <h3>8. ORAÇÃO FINAL</h3>
       <p>
         <strong>D.</strong> Querida comunidade, com o fim de mais um dia de
