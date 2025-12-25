@@ -1,266 +1,364 @@
 function Home() {
   return (
-    <>
-      <h3>1. ORAÇÃO INICIAL</h3>
-      <p>
-        <strong>D.</strong> Queridos irmãoes e irmãs, aqui estamos, como filhos
-        e filhas do Pai, preparando-nos para bem celebrar e viver o Mistério do
-        Natal do enhor, que desejou fazer morada em nosso mundo, assumindo a
-        nossa humanidade. Ao escolher habitar em nossa simplicidade o Filho de
-        Deus elevou todos os homens e mulheres ao coração da Santíssima
-        Trindade. Por isso, rezemos:
-        <br />
-        <strong>
-          T. Em nome do Pai, e do Filho, e do Espírito Santo. Amém!
-        </strong>
-      </p>
-      <p>
-        <a
-          href="https://www.letras.mus.br/catolicas/senhor-vem-salvar-teu-povo/"
-          target="_blank"
-        >
-          Canto: Senhor, vem salvar teu povo!
-        </a>
-      </p>
-      <p>
-        <strong>D.</strong> Veja, povo meu, vem chegando o dia; cumpre-se a
-        promessa, a luz irradia!
-        <br />
-        <strong>
-          T. Preparem as casas, limpem os terreiros, que já vem o Menino, nosso
-          Companheiro!
-        </strong>
-        <br />
-        <strong>D.</strong> Vem na Manjedoura, vem nos refazer, pois traz
-        esperança e novo bem-viver.
-        <br />
-        <strong>
-          T. Vem bem pequenino e vem pobrezinho, mas traz paz e benção pro nosso
-          caminho!
-        </strong>
-        <br />
-        <strong>D.</strong> Os ventos já sopram, a estrela já brilha, a terra se
-        enche de graça e alegria.
-        <br />
-        <strong>
-          T. Alarga sua tenda, estende a sua mão, que Deus vem chegando neste
-          nosso chão!
-        </strong>
-        <br />
-        <strong>D.</strong> Quem tem ouvidos, ouça este meu chamado, Deus já vai
-        nascer em nosso povoado.
-        <br />
-        <strong>
-          T. Menino esperado, vem sem tardança! Faz de nós tua casa, oh Divina
-          Criança!
-        </strong>
-      </p>
-      <header>
-        <h2>8º ENCONTRO</h2>
-        <h2>Ele é a Nossa Alegria</h2>
-      </header>
+    <div className="min-h-screen bg-gradient-to-b from-blue-900 via-blue-800 to-blue-900">
+      {/* Header decorativo */}
+      <div className="bg-yellow-400 h-2"></div>
+      
+      <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        {/* Título Principal */}
+        <section className="text-center mb-12 mt-8">
+          <div className="inline-block bg-white/10 backdrop-blur-sm rounded-lg px-6 py-2 mb-4">
+            <h1 className="text-yellow-300 text-3xl sm:text-4xl font-bold tracking-wide">
+              9º ENCONTRO
+            </h1>
+          </div>
+          <h2 className="text-white text-2xl sm:text-3xl font-light italic">
+            ELE ESTÁ NO MEIO DE NÓS
+          </h2>
+          <div className="mt-4 flex justify-center">
+            <div className="w-24 h-1 bg-yellow-400 rounded"></div>
+          </div>
+        </section>
 
-      <section>
-        <h3>
-          1. Oração Inicial <small>(p. 4)</small>
-        </h3>
-      </section>
+        {/* Seções */}
+        <div className="space-y-8">
+          {/* 1. ORAÇÃO INICIAL */}
+          <section className="bg-white/95 backdrop-blur rounded-xl shadow-2xl p-6 sm:p-8">
+            <h3 className="text-blue-900 text-xl sm:text-2xl font-bold mb-4 border-b-2 border-yellow-400 pb-2">
+              1. ORAÇÃO INICIAL
+            </h3>
+            <p className="text-gray-600 italic mb-4 text-sm">
+              (Para todos os dias)
+            </p>
+            
+            <div className="space-y-4 text-gray-800 leading-relaxed">
+              <p>
+                <strong className="text-blue-900">D.</strong> Queridos irmãos e irmãs, aqui estamos, como
+                filhos e filhas do Pai, preparando-nos para bem celebrar e viver o
+                Mistério do Natal do Senhor, que desejou fazer morada em nosso
+                mundo, assumindo a nossa humanidade. Ao escolher habitar em nossa
+                simplicidade, o Filho de Deus elevou todos os homens e mulheres ao
+                coração da Santíssima Trindade.
+              </p>
+              <p>Por isso, rezemos:</p>
+              <p className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
+                <strong className="text-blue-900">T.</strong> Em nome do Pai, e do Filho, e do Espírito Santo.
+                Amém!
+              </p>
 
-      <section>
-        <h3>2. Acolhida do Tema</h3>
+              <div className="bg-blue-50 p-6 rounded-lg mt-6">
+                <h4 className="text-blue-900 font-bold text-lg mb-4">
+                  Canto: Senhor, vem salvar teu povo!
+                </h4>
+                <p className="text-gray-600 italic text-sm mb-4">
+                  (L. e M.: Pe. José Weber, svd)
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <p className="mb-2">
+                      <strong className="text-blue-900">1.</strong> Senhor, vem salvar teu povo / Das trevas da escravidão!
+                    </p>
+                    <p>Só tu és nossa esperança, / És nossa libertação!</p>
+                  </div>
 
-        <p>
-          <strong>D.</strong> O Tempo do Natal, tão próximo de nós, recorda-nos
-          que a fé cristã não é tristeza, não é rigidez, não é corrente que nos
-          aprisiona. Jesus veio para nos encher de vida e nos fazer transbordar
-          de alegria.
-        </p>
+                  <div className="bg-white p-3 rounded-lg border-2 border-blue-300">
+                    <p className="mb-1">
+                      <strong className="text-blue-900">R.</strong> Vem, Senhor, vem nos salvar!
+                    </p>
+                    <p>Com teu povo vem caminhar! <em className="text-gray-600">(bis)</em></p>
+                  </div>
 
-        <p>
-          <strong>L1.</strong> Maria, grávida do Salvador, foi ao encontro de
-          Isabel cheia de entusiasmo, porque quem carrega Deus no seu interior
-          não se fecha em si mesmo, mas está aberto ao encontro alegre com os
-          irmãos.
-        </p>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <p className="mb-2">
+                      <strong className="text-blue-900">2.</strong> Contigo o deserto é fértil, / A terra se abre em flor,
+                    </p>
+                    <p>Da rocha brota água viva, / Da treva nasce esplendor.</p>
+                  </div>
 
-        <p>
-          <strong>L2.</strong> A certeza do nascimento de Jesus nos tira do medo
-          e da culpa, ressignificando nossas vidas e nossas relações. Se Cristo
-          escolheu viver como um de nós, é porque a vida vale a pena. A alegria
-          do Evangelho é a certeza de que a existência é um presente a ser
-          celebrado, e não um fardo a ser carregado.
-        </p>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <p className="mb-2">
+                      <strong className="text-blue-900">3.</strong> Tu marchas à nossa frente, / És força, caminho e luz.
+                    </p>
+                    <p>Vem logo salvar teu povo, / Não tardes, ó Senhor Jesus!</p>
+                  </div>
+                </div>
 
-        <p>
-          <strong>T.</strong>{" "}
-          <em>Senhor, dá-nos a alegria de viver no teu amor!</em>
-        </p>
-      </section>
+                <p className="text-gray-600 italic text-sm mt-4">
+                  (Outros cantos à escolha nas p. 31-32)
+                </p>
+              </div>
+            </div>
+          </section>
 
-      <section>
-        <h3>3. Iluminação Bíblica</h3>
+          {/* 2. ACOLHIDA DO TEMA */}
+          <section className="bg-white/95 backdrop-blur rounded-xl shadow-2xl p-6 sm:p-8">
+            <h3 className="text-blue-900 text-xl sm:text-2xl font-bold mb-4 border-b-2 border-yellow-400 pb-2">
+              2. ACOLHIDA DO TEMA
+            </h3>
+            
+            <div className="space-y-4 text-gray-800 leading-relaxed">
+              <p>
+                <strong className="text-blue-900">D.</strong> Chegamos ao último dia de nossa Novena!
+                Percorremos um caminho de fé e esperança, preparando nosso coração
+                para acolher Aquele que vem.
+              </p>
+              <p>
+                <strong className="text-blue-900">L1.</strong> Desde antes da criação do mundo, Deus nos
+                sonhou e amou. Não criou o mundo para abandoná-lo, mas para caminhar
+                conosco e fazer-se presente. Assim como esteve com o povo no
+                deserto, Ele peregrina conosco. Não é um Deus imóvel, mas um
+                companheiro de jornada, próximo dos que sofrem.
+              </p>
+              <p className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400 text-center font-semibold text-lg">
+                <strong className="text-blue-900">T.</strong> Ele está no meio de nós!
+              </p>
+              <p>
+                <strong className="text-blue-900">L2.</strong> Quando quis habitar entre nós, escolheu a
+                simplicidade. Não deseja palácios, mas corações humildes, dispostos
+                a acolhê-lo. Sua presença transforma o mundo. Ele veio restaurar a
+                paz, derrubar muros e curar as feridas da humanidade dividida.
+              </p>
+            </div>
+          </section>
 
-        <p>
-          <strong>D.</strong> A Palavra de Deus nos convida a viver uma fé cheia
-          de alegria e gratidão.
-        </p>
+          {/* 3. ILUMINAÇÃO BÍBLICA */}
+          <section className="bg-white/95 backdrop-blur rounded-xl shadow-2xl p-6 sm:p-8">
+            <h3 className="text-blue-900 text-xl sm:text-2xl font-bold mb-4 border-b-2 border-yellow-400 pb-2">
+              3. ILUMINAÇÃO BÍBLICA
+            </h3>
+            
+            <div className="space-y-4 text-gray-800 leading-relaxed">
+              <p>
+                <strong className="text-blue-900">D.</strong> A Palavra de Deus é presença viva do Senhor em
+                nosso meio. Viva o Emanuel, Deus Conosco!
+              </p>
+              <p className="text-gray-600 italic text-sm">
+                (Canto de acolhida da Palavra – à escolha nas p. 31-32)
+              </p>
+              <div className="bg-blue-50 p-6 rounded-lg border-2 border-blue-200">
+                <p className="font-bold text-blue-900 mb-3">
+                  Proclamação da Palavra – João 1,1-14
+                </p>
+                <p className="text-gray-600 italic text-sm">
+                  (Após a proclamação, faz-se um tempo de silêncio para que cada um
+                  leia e releia o texto em sua própria Bíblia, pelo menos três
+                  vezes, sem pressa)
+                </p>
+              </div>
+            </div>
+          </section>
 
-        <p>
-          <em>(Canto de acolhida da Palavra – à escolha nas p. 31-32)</em>
-        </p>
+          {/* 4. PARTILHA */}
+          <section className="bg-white/95 backdrop-blur rounded-xl shadow-2xl p-6 sm:p-8">
+            <h3 className="text-blue-900 text-xl sm:text-2xl font-bold mb-4 border-b-2 border-yellow-400 pb-2">
+              4. PARTILHA
+            </h3>
+            
+            <ul className="space-y-3 text-gray-800 leading-relaxed">
+              <li className="flex items-start">
+                <span className="text-yellow-500 mr-3 text-xl">•</span>
+                <span>O que mais nos tocou nessa Palavra?</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-yellow-500 mr-3 text-xl">•</span>
+                <span>O que significa, para nós, saber que Deus armou sua tenda no meio de nós?</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-yellow-500 mr-3 text-xl">•</span>
+                <span>Como podemos reconhecer e acolher essa presença de Deus em nossa vida?</span>
+              </li>
+            </ul>
+          </section>
 
-        <p>
-          <strong>Proclamação da Palavra – Lucas 1,39-47</strong>
-        </p>
+          {/* 5. FATO DA VIDA */}
+          <section className="bg-white/95 backdrop-blur rounded-xl shadow-2xl p-6 sm:p-8">
+            <h3 className="text-blue-900 text-xl sm:text-2xl font-bold mb-4 border-b-2 border-yellow-400 pb-2">
+              5. FATO DA VIDA
+            </h3>
+            
+            <div className="space-y-4 text-gray-800 leading-relaxed">
+              <p>
+                Neste último dia de Novena, interessa-nos, sobretudo, o fato
+                concreto de nossas vidas. Afinal, na história de cada um de nós,
+                manifesta-se um mistério de comunhão. Na nossa carne, Deus habita.
+                Em nossas tendas, Ele vem morar. Com amor e ternura, Ele caminha
+                pelas curvas de nossas dores, amores, quedas e superações. Nada em
+                nós é indiferente para Deus, e nada é indigno de seu cuidado de Pai.
+                Somos nós a manjedoura onde Ele repousa, e, como a estrela de Belém,
+                o Espírito Santo ilumina os nossos rostos.
+              </p>
+              <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
+                <p>
+                  <strong className="text-blue-900">•</strong> Hoje cada um pode partilhar brevemente o que mais
+                  lhe tocou nesse percurso de oração, e que fatos da sua vida têm sido
+                  transformados em expectativa para o Natal.
+                </p>
+              </div>
+            </div>
+          </section>
 
-        <p>
-          <em>
-            (Após a proclamação, faz-se um tempo de silêncio para que cada um
-            leia e releia o texto em sua própria Bíblia, pelo menos três vezes,
-            sem pressa.)
-          </em>
-        </p>
-      </section>
+          {/* 6. REZAR COM A PALAVRA */}
+          <section className="bg-white/95 backdrop-blur rounded-xl shadow-2xl p-6 sm:p-8">
+            <h3 className="text-blue-900 text-xl sm:text-2xl font-bold mb-4 border-b-2 border-yellow-400 pb-2">
+              6. REZAR COM A PALAVRA
+            </h3>
+            
+            <div className="space-y-4 text-gray-800 leading-relaxed">
+              <p>
+                <strong className="text-blue-900">D.</strong> O Natal nos lembra que Deus continua vindo ao
+                nosso encontro. Peçamos a graça de ser um lugar onde Ele possa
+                habitar:
+              </p>
+              <p className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400 text-center font-semibold">
+                <strong className="text-blue-900">T.</strong> Senhor, que o nosso Natal seja tenda do teu amor
+                no mundo!
+              </p>
+              <ol className="space-y-3 ml-4">
+                <li className="flex items-start">
+                  <span className="text-blue-900 font-bold mr-3">1.</span>
+                  <span>Para que saibamos ver tua presença no rosto dos pequenos, nós te pedimos.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-900 font-bold mr-3">2.</span>
+                  <span>Para que sejamos sinais do teu amor no mundo, nós te pedimos.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-900 font-bold mr-3">3.</span>
+                  <span>Para que aprendamos a abrir espaço para os irmãos em nossa vida, nós te pedimos.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-900 font-bold mr-3">4.</span>
+                  <span>Para que nunca percamos a esperança de um mundo renovado, nós te pedimos.</span>
+                </li>
+              </ol>
+              <p className="text-gray-600 italic text-sm">
+                (Outras intenções podem ser acrescentadas)
+              </p>
+            </div>
+          </section>
 
-      <section>
-        <h3>4. Partilha</h3>
-        <ul>
-          <li>O que nos chama atenção no encontro entre Maria e Isabel?</li>
-          <li>
-            Como podemos tornar nossa experiência de fé mais leve e feliz?
-          </li>
-        </ul>
-      </section>
+          {/* 7. COMPROMISSO DE IRMÃOS */}
+          <section className="bg-white/95 backdrop-blur rounded-xl shadow-2xl p-6 sm:p-8">
+            <h3 className="text-blue-900 text-xl sm:text-2xl font-bold mb-4 border-b-2 border-yellow-400 pb-2">
+              7. COMPROMISSO DE IRMÃOS
+            </h3>
+            
+            <div className="text-gray-800 leading-relaxed">
+              <p>
+                <strong className="text-blue-900">D.</strong> O Natal é tempo de partilha, de acolhida e de
+                comunhão verdadeiras. Por isso, como irmãos e irmãs,
+                comprometemo-nos a viver esta noite santa de um modo mais simples e
+                generoso: preparando uma ceia sem desperdícios, onde o essencial
+                brilhe mais do que a fartura. Que nosso Natal não seja apenas festa
+                familiar, mas sinal vivo do Reino de Deus, onde cada um tem lugar,
+                pão e amor traduzidos em partilha.
+              </p>
+            </div>
+          </section>
 
-      <section>
-        <h3>5. Fato da Vida</h3>
+          {/* 8. ORAÇÃO FINAL */}
+          <section className="bg-white/95 backdrop-blur rounded-xl shadow-2xl p-6 sm:p-8">
+            <h3 className="text-blue-900 text-xl sm:text-2xl font-bold mb-4 border-b-2 border-yellow-400 pb-2">
+              8. ORAÇÃO FINAL
+            </h3>
+            <p className="text-gray-600 italic text-sm mb-4">
+              (Para todos os dias)
+            </p>
+            
+            <div className="space-y-4 text-gray-800 leading-relaxed">
+              <p>
+                <strong className="text-blue-900">D.</strong> Querida comunidade, com o fim de mais um dia de Novena, supliquemos ao Bom Deus
+                que as bênçãos alcançadas com esta nossa oração se estendam a todos os irmãos e irmãs,
+                em especial àqueles em maior sofrimento e aflição.
+              </p>
+              <p>
+                <strong className="text-blue-900">T.</strong> <em>(O canto também pode ser recitado em dois coros)</em>
+              </p>
+              <p className="text-gray-600 italic text-sm">
+                (Outros cantos à escolha nas p. 31-32)
+              </p>
 
-        <p>
-          <strong>L1.</strong> Dona Estela era catequista há muitos anos, e sua
-          fama de durona era conhecida em toda a paróquia. Por receio da
-          catequista, os pequenos tinham tudo na ponta da língua, mas o coração
-          estava distante dali. Como queriam não ter de ir para a catequese!
-        </p>
+              <div className="bg-blue-50 p-6 rounded-lg mt-6">
+                <h4 className="text-blue-900 font-bold text-lg mb-4">
+                  Canto: Eis que veio o Senhor – Salmo 72
+                </h4>
+                <p className="text-gray-600 italic text-sm mb-4">
+                  (V. e M.: Frei Joel Postma, ofm)
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="bg-white p-3 rounded-lg border-2 border-blue-300">
+                    <p className="mb-1">
+                      <strong className="text-blue-900">R.</strong> Eis que veio o Senhor dos senhores,
+                    </p>
+                    <p className="ml-6">em suas mãos o poder e a realeza. <em className="text-gray-600">(bis)</em></p>
+                  </div>
 
-        <p>
-          <strong>L2.</strong> O único da turma que se mantinha sempre sossegado
-          era Pedro. Vivia no mundo da lua e não sabia nada de cor. Certa tarde,
-          com tom firme, a catequista começou a dizer:
-        </p>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <p>
+                      <strong className="text-blue-900">1.</strong> Dai ao rei vossos poderes, Senhor Deus,
+                    </p>
+                    <p className="ml-6">vossa justiça ao descendente da realeza!</p>
+                  </div>
 
-        <blockquote>
-          <p>
-            — Deus nos deu as regras para vivermos bem. Precisamos segui-las com
-            atenção, porque desobedecer é pecado. E vocês sabem o que acontece
-            com quem faz o que é errado?
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <p>
+                      <strong className="text-blue-900">2.</strong> Com justiça ele governe o vosso povo,
+                    </p>
+                    <p className="ml-6">com equidade ele julgue os vossos pobres.</p>
+                  </div>
+
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <p>
+                      <strong className="text-blue-900">3.</strong> Libertará o indigente que suplica,
+                    </p>
+                    <p className="ml-6">E o pobre ao qual ninguém quer ajudar.</p>
+                  </div>
+
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <p>
+                      <strong className="text-blue-900">4.</strong> Todos os povos serão nele abençoados,
+                    </p>
+                    <p className="ml-6">Todas as gentes cantarão o seu louvor!</p>
+                  </div>
+
+                  <p className="text-gray-600 italic text-sm mt-4">
+                    (Faz-se uma inclinação:)
+                  </p>
+
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <p>
+                      <strong className="text-blue-900">5.</strong> Glória ao Pai e ao Filho e ao Santo Espírito,
+                    </p>
+                    <p className="ml-6">como era no princípio, agora e sempre.</p>
+                  </div>
+
+                  <p className="text-gray-600 italic text-sm mt-4">
+                    (Se oportuno, aspergir água benta na casa e nas pessoas, como memória do Batismo)
+                  </p>
+
+                  <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400 mt-4">
+                    <p className="font-semibold text-blue-900">Pai-Nosso, Ave-Maria e Glória ao Pai.</p>
+                    <p className="text-gray-700 mt-2">
+                      <strong>Abraço da paz</strong> <em className="text-gray-600">(canto à escolha: p. 31-32)</em>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        {/* Footer */}
+        <div className="text-center mt-12 mb-8">
+          <div className="w-24 h-1 bg-yellow-400 rounded mx-auto mb-4"></div>
+          <p className="text-white/80 text-sm">
+            Feliz Natal! Que o Senhor habite em nossos corações.
           </p>
-        </blockquote>
-
-        <p>
-          Pedro, que olhava pela janela distraído como sempre, de repente se
-          virou para a senhora e disse:
-        </p>
-
-        <blockquote>
-          <p>— Tenta de novo!</p>
-        </blockquote>
-
-        <p>
-          <strong>L3.</strong> Dona Estela arqueou as sobrancelhas, indignada:
-        </p>
-
-        <blockquote>
-          <p>— Como assim? De onde você tirou isso, menino?</p>
-        </blockquote>
-
-        <p>Pedro respondeu com naturalidade:</p>
-
-        <blockquote>
-          <p>
-            — Outro dia eu briguei na escola, Dona Estela. Tenho um colega que
-            me irrita muito e, durante o futebol, ele me fez cair. Eu levantei
-            com raiva e briguei com ele. Ele chorou muito e eu levei uma
-            suspensão. Quando cheguei em casa, meu pai disse que estava
-            desapontado comigo e senti muita culpa. Então, quem chorou fui eu.
-          </p>
-        </blockquote>
-
-        <p>
-          <strong>D.</strong> Dona Estela já impaciente com a história do menino
-          disse:
-        </p>
-
-        <blockquote>
-          <p>— Mas o que isso tem a ver com o assunto?</p>
-        </blockquote>
-
-        <p>Pedro continuou, sereno:</p>
-
-        <blockquote>
-          <p>
-            — Tem a ver que, quando meu pai viu minha culpa, ele disse: “Filho,
-            não precisa ficar triste. Todo mundo erra. O mais importante, depois
-            que a gente erra, é tentar de novo. Não desistir de fazer o certo.
-            Amanhã, peça perdão ao seu colega e, se ele voltar a te irritar,
-            tente sorrir, ao invés de brigar. Amanhã, você tenta de novo...”
-          </p>
-        </blockquote>
-
-        <p>
-          <strong>L1.</strong> Dona Estela olhou ao redor. As crianças estavam
-          atentas a Pedro de um jeito que nunca estiveram a ela. Então, um pouco
-          desconcertada, perguntou:
-        </p>
-
-        <blockquote>
-          <p>
-            — E você acha que Deus fica feliz quando a gente tenta de novo,
-            Pedro?
-          </p>
-        </blockquote>
-
-        <p>O menino deu um sorriso largo e respondeu:</p>
-
-        <blockquote>
-          <p>
-            — A senhora sempre diz que Deus é Pai. Se meu pai ficou feliz, acho
-            que Deus ainda mais.
-          </p>
-        </blockquote>
-
-        <p>
-          <strong>L2.</strong> Dona Estela sentiu uma alegria nova, genuína, ao
-          ouvir a resposta do menino. Fez uma pausa e, quase sem perceber,
-          sorriu. Depois daquele dia, aos poucos, Estela começou a se soltar
-          mais, deixava as crianças mais à vontade para falar e até se permitia
-          rir das graças que algumas faziam. Às vezes, voltava às velhas ideias
-          rígidas, mas, quando percebia o receio surgir nos olhos das crianças,
-          lembrava-se de Pedro e do Pai, e decidia tentar de novo.
-        </p>
-      </section>
-
-      <section>
-        <ul>
-          <li>O que te chama atenção nesta história?</li>
-          <li>
-            Por que tantas vezes conhecemos pessoas com uma fé rígida e sem
-            alegria?
-          </li>
-          <li>Que antídotos podemos buscar para evitar posturas assim?</li>
-        </ul>
-      </section>
-      <h3>8. ORAÇÃO FINAL</h3>
-      <p>
-        <strong>D.</strong> Querida comunidade, com o fim de mais um dia de
-        Novena, supliquemos ao Bom Deus que as bençãos alcançadas com esta nossa
-        oração se estendam a todos os irmãoes e irmãs, em especial àqueles em
-        maior sofrimentos e aflição.
-        <br />
-        <strong>Pai-Nossa, Ave-Maria e Glória ao Pai.</strong>
-        <br />
-        <strong>Abraço da paz</strong>
-      </p>
-    </>
+        </div>
+      </main>
+    </div>
   );
 }
 
